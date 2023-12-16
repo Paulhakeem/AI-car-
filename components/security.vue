@@ -8,11 +8,11 @@
           xmlns="http://www.w3.org/2000/svg"
           width="32"
           height="32"
-          viewBox="0 0 1024 1024"
+          viewBox="0 0 24 24"
         >
           <path
             fill="#ffbb00"
-            d="M224 768v96.064a64 64 0 0 0 64 64h448a64 64 0 0 0 64-64V768zm0-64h576V160a64 64 0 0 0-64-64H288a64 64 0 0 0-64 64zm32 288a96 96 0 0 1-96-96V128a96 96 0 0 1 96-96h512a96 96 0 0 1 96 96v768a96 96 0 0 1-96 96zm304-144a48 48 0 1 1-96 0a48 48 0 0 1 96 0"
+            d="M12 19.9q2.425-.75 4.05-2.962T17.95 12H12V4.125l-6 2.25v5.175q0 .175.05.45H12zm0 2q-.175 0-.325-.025t-.3-.075Q8 20.675 6 17.638T4 11.1V6.375q0-.625.363-1.125t.937-.725l6-2.25q.35-.125.7-.125t.7.125l6 2.25q.575.225.938.725T20 6.375V11.1q0 3.5-2 6.538T12.625 21.8q-.15.05-.3.075T12 21.9"
           />
         </svg>
         <h1 class="text-heading font-bold text-2xl">
@@ -43,14 +43,26 @@
       <div
         class="relative flex h-96 w-96 items-center justify-center rounded-lg bg-heading text-slate-300"
       >
-        <div>
-          <p class="text-gray text-sm font-semibold italic">
-            Listening..........
-          </p>
-          <p class="text-gray text-md pt-4 font-semibold">
-            Eva, show me directiton to the fastest charging station under 5
-            miles.
-          </p>
+        <div class="bg-yellow w-96 mx-2 h-44">
+          <div class="flex gap-4">
+            <!-- image -->
+          </div>
+          <div class="flex justify-between mx-2 items-center">
+            <div class="pt-3 text-left">
+              <p class="text-md font-semibold text-heading">Lamborghini</p>
+              <p class="text-md text-heading pt-3">
+                Status:
+                <span class="text-md text-heading font-semibold">Parked</span>
+              </p>
+              <p class="text-md text-heading">
+                Battery:
+                <span class="text-md text-heading font-semibold">50%</span>
+              </p>
+            </div>
+            <div>
+              <img src="~/assets/images/ghini.png" alt="" class="w-72"/>
+            </div>
+          </div>
         </div>
       </div>
     </div>
