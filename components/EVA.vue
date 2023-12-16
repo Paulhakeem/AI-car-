@@ -5,8 +5,9 @@
     </h1>
 
     <div class="flex flex-wrap justify-center items-center my-10 gap-16 mx-10">
-
-      <div class="inline-block w-96 text-center items-center justify-center p-8 self-center">
+      <div
+        class="inline-block w-96 text-center justify-center items-center p-8"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
@@ -19,11 +20,11 @@
           />
         </svg>
 
-
         <h1 class="text-heading font-semibold text-xl">Self Driving</h1>
-        <p class="text-[#67625f]">EVA has the functionality to drive your car on auto-pilot to define loaction</p>
-
-
+        <p class="text-[#67625f]">
+          EVA has the functionality to drive your car on auto-pilot to define
+          loaction
+        </p>
       </div>
 
       <div class="w-96 text-center content-center p-8">
@@ -40,7 +41,10 @@
         </svg>
         <h1 class="text-heading font-semibold text-xl">Car Monitoring</h1>
 
-        <p class="text-[#67625f]">EVA monitors the health of your car to let you know faults parts and issues.</p>
+        <p class="text-[#67625f]">
+          EVA monitors the health of your car to let you know faults parts and
+          issues.
+        </p>
       </div>
 
       <div class="w-96 text-center content-center p-8">
@@ -57,7 +61,9 @@
         </svg>
         <h1 class="text-heading font-semibold text-xl">Car Tracking</h1>
 
-        <p class="text-[#67625f]">EVA tracks the location of your car for security with smart alerts</p>
+        <p class="text-[#67625f]">
+          EVA tracks the location of your car for security with smart alerts
+        </p>
       </div>
 
       <div class="w-96 text-center content-center p-8">
@@ -74,7 +80,10 @@
         </svg>
         <h1 class="text-heading font-semibold text-xl">Traveling Assistant</h1>
 
-        <p class="text-[#67625f]">EVA scans the map for facilities such as charging stations, repair pont</p>
+        <p class="text-[#67625f]">
+          EVA scans the map for facilities such as charging stations, repair
+          pont
+        </p>
       </div>
 
       <div class="w-96 text-center content-center p-8">
@@ -91,7 +100,10 @@
         </svg>
         <h1 class="text-heading font-semibold text-xl">Co-pilot</h1>
 
-        <p class="text-[#67625f]">EVA anbales you to access your phone and systems through voice command.</p>
+        <p class="text-[#67625f]">
+          EVA anbales you to access your phone and systems through voice
+          command.
+        </p>
       </div>
     </div>
   </div>

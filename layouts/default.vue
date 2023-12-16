@@ -18,12 +18,19 @@
               class="flex items-center space-x-5 text-[#869094] font-semibold"
             >
               <li class="hidden sm:flex cursor-pointer">PRE</li>
+
               <nuxt-link to="/features">
-               <li class="hidden sm:flex cursor-pointer">Features</li>
+                <li class="hidden sm:flex cursor-pointer">Features</li>
               </nuxt-link>
-             
-              <li class="hidden sm:flex cursor-pointer">Reviews</li>
-              <li class="hidden sm:flex cursor-pointer">FAQ</li>
+
+              <nuxt-link to="/reviews">
+                <li class="hidden sm:flex cursor-pointer">Reviews</li>
+              </nuxt-link>
+
+              <nuxt-link to="/FAQ">
+                <li class="hidden sm:flex cursor-pointer">FAQ</li>
+              </nuxt-link>
+
               <li
                 class="hidden sm:flex bg-yellow text-white rounded-md p-2 w-28 text-center font-medium cursor-pointer"
               >
@@ -76,10 +83,26 @@
                         P.R.E
                       </h3>
                     </li>
-                    <li class="flex border-t cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md">PRE</li>
-                    <li class="flex cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md">Features</li>
-                    <li class="flex cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md">Reviews</li>
-                    <li class="flex cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md">FAQ</li>
+                    <li
+                      class="flex border-t cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md"
+                    >
+                      PRE
+                    </li>
+                    <li
+                      class="flex cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md"
+                    >
+                      Features
+                    </li>
+                    <li
+                      class="flex cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md"
+                    >
+                      Reviews
+                    </li>
+                    <li
+                      class="flex cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md"
+                    >
+                      FAQ
+                    </li>
                     <li
                       class="flex bg-white text-yellow my-4 rounded-md p-2 w-28 text-center font-medium cursor-pointer"
                     >
