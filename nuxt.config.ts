@@ -7,7 +7,11 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+app: {
+  head: {
+    title: "EVA: A.I. Car Assistant Landing page design"
   }
- 
+}
 
 })
