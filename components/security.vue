@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex border borer-1 border-gray rounded-md p-10 justify-center items-center w-auto mx-10"
+    class="features flex justify-center items-center w-auto px-10"
   >
     <div>
       <div class="flex gap-2">
@@ -15,7 +15,7 @@
             d="M12 19.9q2.425-.75 4.05-2.962T17.95 12H12V4.125l-6 2.25v5.175q0 .175.05.45H12zm0 2q-.175 0-.325-.025t-.3-.075Q8 20.675 6 17.638T4 11.1V6.375q0-.625.363-1.125t.937-.725l6-2.25q.35-.125.7-.125t.7.125l6 2.25q.575.225.938.725T20 6.375V11.1q0 3.5-2 6.538T12.625 21.8q-.15.05-.3.075T12 21.9"
           />
         </svg>
-        <h1 class="text-heading font-bold text-2xl">
+        <h1 class="feature-heading text-heading font-bold text-2xl">
           24/7 smart security for your car
         </h1>
       </div>
@@ -28,7 +28,7 @@
         <p class="text-green text-sm font-semibold">Predictive Maintainance</p>
       </div>
 
-      <div class="w-2/3 pt-4">
+      <div class="feature-text w-2/3 pt-4">
         <p class="text-left text-[#67625f]">
           Whether its parking lot incident or attempted break-in, EVA's AI acts
           as an intelligent guardian, providing keeping your vehicle in peak

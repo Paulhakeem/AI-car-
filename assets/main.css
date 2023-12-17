@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 640px) { 
+    .heading {
+        font-size: 57px;
+        line-height: 1.5em;
+    }
+    .heading-p {
+        font-size: 16px;
+    }
+    .car-logo {
+        column-gap: 10px;
+    }
+
+    .features {
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .feature-text {
+        width: 100%;
+        padding-bottom: 2em;
+    }
+
+    .feature-heading {
+        font-size: 20px;
+    }
+
+    .reviews {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .FAQ {
+        width: 100%;
+        padding-left: 6px;
+        padding-right: 6px;
+        border: none;
+    }
+    .EVA {
+        row-gap: 10px;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer h3 {
+        font-size: 40px;
+    }
+    .footer span {
+        font-size: 10px;
+    }
+    .footer-p {
+        row-gap: 20px;
+        column-gap: 14px;
+        padding-top: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .footer-b {
+        padding-top: 0.5px;
+        margin-bottom: 10px;
+    }
+ }

@@ -88,21 +88,30 @@
                     >
                       PRE
                     </li>
+                    <nuxt-link to="/features">
                     <li
                       class="flex cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md"
                     >
                       Features
                     </li>
-                    <li
+                    </nuxt-link>
+                    
+                    <nuxt-link to="/reviews">
+                     <li
                       class="flex cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md"
                     >
                       Reviews
                     </li>
+                    </nuxt-link>
+                   
+                    <nuxt-link to="/FAQ">
                     <li
                       class="flex cursor-pointer hover:text-yellow hover:bg-white hover:p-2 hover:rounded-md"
                     >
                       FAQ
                     </li>
+                    </nuxt-link>
+                    
                     <li
                       class="flex bg-white text-yellow my-4 rounded-md p-2 w-28 text-center font-medium cursor-pointer"
                     >
@@ -159,7 +168,7 @@
           </div>
         </button>
 
-        <button class="bg-heading p-2 rounded-md w-44">
+        <button class="bg-heading p-2 rounded-md w-44 ">
           <div class="text-start justify-center flex gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -183,23 +192,23 @@
 
     <!-- footer -->
 
-    <div class="bg-black w-full h-auto mt-24 pb-10">
+    <div class="bg-black w-full h-auto mt-24 pb-10 footer">
       <div
-        class="footer flex flex-wrap flex-row-3 justify-between gap-14 text-gray pt-8 mx-10"
+        class="footer flex flex-wrap flex-row-3 justify-between gap-14 text-gray pt-8 px-10"
       >
         <div>
           <h3 class="flex text-yellow text-6xl font-black tracking-wider">
             P.R.E
           </h3>
-          <p
+          <span
             class="text-gray tracking-widest text-sm text-center italic font-light"
           >
             Paper Route Empire
-          </p>
+          </span>
         </div>
 
-        <div class="flex px-6 flex-wrap gap-14 pt-6">
-          <div class="font-light">Navigation</div>
+        <div class="footer-p flex px-6 flex-wrap gap-14 pt-6">
+          <p class="font-light">Navigation</p>
 
           <div class="font-light">
             <p>Home</p>
@@ -218,7 +227,7 @@
           </div>
         </div>
 
-        <div class="flex flex-wrap gap-6 pt-6">
+        <div class="footer-b flex flex-wrap gap-6 pt-6">
           <div class="font-light">
             <p>Terms</p>
           </div>

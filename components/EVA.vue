@@ -4,7 +4,7 @@
       Introducing E.V.A
     </h1>
 
-    <div class="flex flex-wrap justify-center items-center my-10 gap-16 mx-10">
+    <div class="EVA flex flex-wrap justify-center items-center my-10 gap-16 mx-10">
       <div
         class="inline-block w-96 text-center p-8"
       >

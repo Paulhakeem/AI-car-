@@ -3,7 +3,7 @@
     class="justify-center items-center text-center select-none mt-10 space-y-10"
   >
     <div
-      class="flex border borer-1 border-gray rounded-md p-10 justify-center items-center w-auto mx-10"
+      class="features flex justify-center items-center w-auto px-10"
     >
       <div>
         <div class="flex gap-2">
@@ -18,7 +18,7 @@
               d="M224 768v96.064a64 64 0 0 0 64 64h448a64 64 0 0 0 64-64V768zm0-64h576V160a64 64 0 0 0-64-64H288a64 64 0 0 0-64 64zm32 288a96 96 0 0 1-96-96V128a96 96 0 0 1 96-96h512a96 96 0 0 1 96 96v768a96 96 0 0 1-96 96zm304-144a48 48 0 1 1-96 0a48 48 0 0 1 96 0"
             />
           </svg>
-          <h1 class="text-heading font-bold text-2xl">
+          <h1 class="feature-heading text-heading font-bold text-2xl">
             Manage your car from your phone
           </h1>
         </div>
@@ -33,7 +33,7 @@
           </p>
         </div>
 
-        <div class="w-2/3 pt-4">
+        <div class="feature-text w-2/3 pt-4">
           <p class="text-left text-[#67625f]">
             EVA Semless Intergrates with your smart device . Whether you need to
             adjust the temprature, find a near by charging station, or simply

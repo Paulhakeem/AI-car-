@@ -1,12 +1,12 @@
 <template>
   <div class="text-center pt-16">
-    <h1 class="text-6xl font-bold text-heading">
+    <h1 class="heading text-6xl font-bold text-heading">
       Your Car,
       <span class="bg-yellow w-full text-white px-2 pb-2 tracking-wide"
         >Now with A.I.</span
       >
     </h1>
-    <p class="p-10 text-[#67625f]">
+    <p class=" heading-p p-10 text-[#67625f]">
       Introducing Paper Route Empire launches Electronic Vehicle Assistant E.V.A
       <br />which is an artificial intelligence that enables you to control and
       <br />
@@ -70,7 +70,7 @@
     <div class="py-10">
       <!-- <img src="~/assets/images/bmw.jpg" alt="larmboghin" class="w-full"/> -->
 
-      <div class="flex justify-between mx-14">
+      <div class="car-logo flex justify-between px-6">
         <img src="~/assets/images/bmw.png" alt="BMW logo" class="w-20" />
         <img
           src="~/assets/images/lamborghini.png"

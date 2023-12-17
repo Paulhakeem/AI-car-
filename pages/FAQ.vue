@@ -2,7 +2,7 @@
   <div class="mt-10 mx-4 select-none mb-8">
     <h3 class="text-center text-heading font-bold text-4xl">FAQs</h3>
 
-    <div class="mx-20 mt-10 border border-1 border-gray rounded-lg p-6">
+    <div class="FAQ px-20 mt-10 border border-1 border-gray rounded-lg p-6">
       <div class="flex justify-between">
         <h4 class="font-bold text-yellow">
           1. What is EVA? and how does it differ from tradition vehicles?
@@ -31,7 +31,7 @@
       </p>
     </div>
 
-    <div class="mx-20 mt-10 border border-1 border-gray rounded-lg p-6">
+    <div class="FAQ px-20 mt-10 border border-1 border-gray rounded-lg p-6">
       <div class="flex justify-between">
         <h4 class="font-bold text-yellow first-letter:uppercase">
           2. How does EVAs AI navigation work, and whats set it apart from other
@@ -61,7 +61,7 @@
       </p>
     </div>
 
-    <div class="mx-20 mt-10 border border-1 border-gray rounded-lg p-6">
+    <div class="FAQ px-20 mt-10 border border-1 border-gray rounded-lg p-6">
       <div class="flex justify-between">
         <h4 class="font-bold text-yellow">
           3. What isecurity features does EVA offer for my electric vehicle?
@@ -90,7 +90,7 @@
       </p>
     </div>
 
-    <div class="mx-20 mt-10 border border-1 border-gray rounded-lg p-6">
+    <div class="FAQ px-20 mt-10 border border-1 border-gray rounded-lg p-6">
       <div class="flex justify-between">
         <h4 class="font-bold text-yellow">
           4. Can EVA intergrates with my smart device, and how does this enhance
@@ -120,7 +120,7 @@
       </p>
     </div>
 
-    <div class="mx-20 mt-10 border border-1 border-gray rounded-lg p-6">
+    <div class="FAQ px-20 mt-10 border border-1 border-gray rounded-lg p-6">
       <div class="flex justify-between">
         <h4 class="font-bold text-yellow">
           4. Can EVA intergrates with my smart device, and how does this enhance

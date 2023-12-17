@@ -2,7 +2,7 @@
   <div class="justify-center text-center select-none pt-14">
     <h1 class="text-3xl font-bold text-heading">Loved By our users</h1>
 
-    <div class="flex gap-20 justify-center text-center pt-10">
+    <div class="reviews flex flex-wrap gap-20 justify-center text-center pt-10">
       <div class="w-96">
         <p class="text-md text-heading">
           "I cant get over how responsive EVA is to voice command. its like

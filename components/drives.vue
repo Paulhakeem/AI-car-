@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex border borer-1 border-gray rounded-md p-10 justify-center items-center w-auto mx-10"
+    class="features flex py-10 justify-center items-center w-auto px-10"
   >
     <div>
       <div class="flex gap-2">
@@ -15,7 +15,7 @@
             d="M20 21v-3h3v-2h-3v-3h-2v3h-3v2h3v3zm-4.97.5H5.66c-.72 0-1.38-.38-1.73-1l-2.36-4.1c-.36-.62-.35-1.38.01-2L7.92 3.49c.36-.61 1.02-.99 1.73-.99h4.7c.71 0 1.37.38 1.73.99l4.48 7.71a6.176 6.176 0 0 0-2.4-.14L14.35 4.5h-4.7L3.31 15.41l2.35 4.09h7.89c.35.77.85 1.45 1.48 2M13.34 15c-.22.63-.34 1.3-.34 2H7.25l-.73-1.27l4.58-7.98h1.8l2.53 4.42c-.56.42-1.05.93-1.44 1.51l-2-3.49L9.25 15z"
           />
         </svg>
-        <h1 class="text-heading font-bold text-2xl">
+        <h1 class="feature-heading text-heading font-bold text-2xl">
           Turn drives into adventure
         </h1>
       </div>
@@ -28,7 +28,7 @@
         <p class="text-green text-sm font-semibold">Efficiency Redefine</p>
       </div>
 
-      <div class="w-2/3 pt-4">
+      <div class="feature-text w-2/3 pt-4">
         <p class="text-left text-[#67625f]">
           EVA optimizes your route, reduce energy consumption, and enhance
           overall driving Efficiency with real time traffic data, weather
