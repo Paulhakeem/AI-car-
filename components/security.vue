@@ -43,11 +43,8 @@
       <div
         class="relative flex h-96 w-96 items-center justify-center rounded-lg bg-heading text-slate-300"
       >
-        <div class="bg-yellow w-96 mx-2 h-44">
-          <div class="flex gap-4">
-            <!-- image -->
-          </div>
-          <div class="flex justify-between mx-2 items-center">
+        <div class="bg-yellow w-96 h-44 mx-2">
+          <div class="flex justify-between mx-4 items-center">
             <div class="pt-3 text-left">
               <p class="text-md font-semibold text-heading">Lamborghini</p>
               <p class="text-md text-heading pt-3">
@@ -60,11 +57,11 @@
               </p>
             </div>
             <div>
-              <img src="~/assets/images/ghini.png" alt="" class="w-72"/>
+              <img src="~/assets/images/ghini.png" alt="" class="w-72" />
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </div>
   </div>
 </template>
